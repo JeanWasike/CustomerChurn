@@ -9,7 +9,7 @@ To predict customer churn, the following steps are followed:
 ## Step 1: Data Collection
 Since the use case company is Sprint, based in the USA, we need to work with data of a telecom company based in the USA. The sample dataset used was [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) from Kaggle. It contained information about customers, their phone services and uses, charges and whether they churned or not, hence it was relevant for the question at hand.
 The overview of the data is shown below:
-add image
+[Data Overview](/df1.png)
 
 ## Step 2: Data Preparation
 This phase includes preparing the data obtained for use by the machine learning model. It is implemented through the following steps.
