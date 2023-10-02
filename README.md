@@ -16,10 +16,11 @@ This phase includes preparing the data obtained for use by the machine learning 
 
 ### Data Preprocessing
 This step involves checking the data for any missing values and replacing them in the case where the dataset is small or deleting the rows if the dataset is large. Since our dataset has 5000+ values, it would be easier to delete the rows with missing values. However, the data contained no missing values hence no need.
-add image
+[Preprocessing Code Preview](/null.png)
 
 ### Feature and Labels Selection
-This stage involves selecting the columns that are relavent to the prediction and dropping the columns that are not relevant for the task at hand. In our case, the selected featires for the prediction of customer churning were 'id','gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges'.  The rest were dropped.
+This stage involves selecting the columns that are relavent to the prediction and dropping the columns that are not relevant for the task at hand. In our case, the selected featires for the prediction of customer churning were 'id','gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges'.  The rest were dropped. 
+[Feature Selection Preview](/dropped.png)
 Afterwards, the columns were separated into  features and labels as X and y respectively.
 
 ### Label Encoding
@@ -33,12 +34,11 @@ In this phase, the model will be built, trained and tested.
 
 ### Exploratory Data Analysis
 This is the step where the nature of the data is observed and analyzed so as to identify the best model for use. In this case, the number of customers who churned within the dataset was represented using a pie chart.
-
-add image
+[Pie Chart Image](/pie.png)
 
 ### Model Selection
 The model selected for this task was Logistic Regression since it is a classification problem.  The model was trained and tested with an accuracy of 79% which was fairly good.
-add image
+[Model Code Preview](/lr.png)
 
 # Conclusion
 From the above steps, a machine elarning model was able to be built and trained for the task of predicting whether a customer will churn or not. 
