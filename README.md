@@ -16,7 +16,7 @@ This phase includes preparing the data obtained for use by the machine learning 
 
 ### Data Preprocessing
 This step involves checking the data for any missing values and replacing them in the case where the dataset is small or deleting the rows if the dataset is large. Since our dataset has 5000+ values, it would be easier to delete the rows with missing values. However, the data contained no missing values hence no need.
-[Preprocessing Code Preview](/null.png)
+![Preprocessing Code Preview](/null.png)
 
 ### Feature and Labels Selection
 This stage involves selecting the columns that are relavent to the prediction and dropping the columns that are not relevant for the task at hand. In our case, the selected featires for the prediction of customer churning were 'id','gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges'.  The rest were dropped. 
